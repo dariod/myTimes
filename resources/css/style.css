@@ -3,6 +3,9 @@ body {
   margin: 0px;
 }
 
+div {
+  border: 1px dotted black;
+}
 .header {
   font-family: Verdana;
   font-size: 14px;
@@ -11,6 +14,8 @@ body {
   align-items: center;
   border-bottom: 1px solid black;
   height: 80px;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -19,21 +24,59 @@ body {
   flex-grow: 1;
   padding-left: 30px;
   color: MediumAquamarine;
+  position: relative;
 }
 
 .logo img {
   margin-right: 12px;
+  position: relative;
 }
 
 .header nav {
   display: inline-block;
   padding-right: 40px;
+  position: relative;
 }
 
 .header nav span {
   padding: 20px 10px;
+  position: relative;
 }
 
 .header nav a {
   color: black;
+  position: relative;
+}
+
+.contents {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+
+
+
+
+
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.column01 {
+    width: 630px;
+}
+
+.column.column02 {
+  width: 300px;
+}
+
+.column.column03 {
+  width: 240px;
 }

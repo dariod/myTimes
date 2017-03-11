@@ -1,1 +1,39 @@
 /*Codecademy myTime project style*/
+body {
+  margin: 0px;
+}
+
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  height: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+  color: MediumAquamarine;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+.header nav {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.header nav span {
+  padding: 20px 10px;
+}
+
+.header nav a {
+  color: black;
+}

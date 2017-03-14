@@ -16,6 +16,7 @@ div {
   height: 80px;
   position: fixed;
   width: 100%;
+  background-color: white;
 }
 
 .logo {
@@ -55,14 +56,6 @@ div {
   padding-top: 116px;
 }
 
-
-
-
-
-
-
-}
-
 .column {
   display: flex;
   flex-direction: column;
@@ -79,4 +72,36 @@ div {
 
 .column.column03 {
   width: 240px;
+}
+
+.img-content {
+  display: flex;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.text-content {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#img01 {
+  background-image: url(../images/img-story-main.png);
+  font-size: 40px;
+}
+
+#img02 {
+  background-image: url(../images/img-story-2.png);
+}
+
+#img03 {
+  background-image: url(../images/img-story-3.png);
+}
+
+#img04 {
+  background-image: url(../images/img-story-1.png);
 }
